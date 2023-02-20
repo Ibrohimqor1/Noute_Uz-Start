@@ -1,0 +1,39 @@
+.carousel-control-next-icon {
+    cursor: pointer;
+    background: rgba(0, 0, 0, 0.5);
+    width: 40px;
+    height: 40px;
+}
+
+
+.category {
+    width: 100%;
+    height: 45px;
+    background: #0693e3;
+
+    .c-items {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+
+        .active {
+            border: none !important;
+        }
+
+        .c-item {
+            cursor: pointer;
+            list-style: none;
+            color: #fff;
+            height: 45px;
+            padding: 5px 14px;
+            border-left-color: rgb(15 116 191) !important;
+            border-left: 1px solid transparent;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .c-item:hover {
+            background: #0275d8;
+        }
+    }
+}
