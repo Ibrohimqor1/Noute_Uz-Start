@@ -49,6 +49,12 @@ const Header = (props) => {
           />
         </Carousel.Item>
       </Carousel>
+      <div className="container">
+      <div className="header__text">
+        <h1 className='header__text__h1'>Ноутбуки в Ташкенте. Выберите из 200 моделей!</h1>
+        <h5 className='header__text__h5' >Магазин Ноутбуков №1. Доставка по  Узбекистану. Гарантия до 2 лет</h5>
+      </div>
+      </div>
     </>
   )
 }

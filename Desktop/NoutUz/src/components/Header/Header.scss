@@ -4,7 +4,17 @@
     width: 40px;
     height: 40px;
 }
-
+.header__text{
+    margin: 30px;
+}
+.header__text__h1{
+    font-size: 30px;
+    color: rgb(69, 69, 69);
+}
+.header__text__h5{
+    font-size: 16px;
+    color: rgb(43, 43, 43);
+}
 
 .category {
     width: 100%;
@@ -35,5 +45,32 @@
         .c-item:hover {
             background: #0275d8;
         }
+    }
+}
+@media only screen and (max-width: 930px) {
+    .category{
+        width: 100%;
+        .c-items{
+            width: 100%;
+            overflow-x: scroll;
+            
+            .c-item{
+                width: 100px;
+            }
+        }
+    }
+    .header__text__h1{
+        font-size: 18px;
+    }
+    .header__text__h5{
+        font-size: 12px;
+    }
+} 
+@media only screen and (max-width: 450px) {
+    .header__text__h1{
+        font-size: 15px;
+    }
+    .header__text__h5{
+        font-size: 9px;
     }
 }

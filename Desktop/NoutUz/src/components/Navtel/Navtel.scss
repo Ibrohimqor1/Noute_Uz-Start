@@ -6,7 +6,7 @@ nav {
     justify-content: space-between;
     .Nav__left {
       .Nav__left__h6 {
-        padding-top: 20px;
+        padding-top: 30px;
         color: rgb(68, 68, 68);
         font-weight: 200;
       }
@@ -28,5 +28,45 @@ nav {
           }
      }
     }
+  }
+}
+@media only screen and (max-width: 1216px) {
+  nav{
+
+      .Nav__tel{
+          display: block;
+          justify-content: center;
+          .Nav__left{
+            width: 100%;
+              .Nav__left__h6{
+                text-align: center;
+                align-items: center;
+                width: 100%;
+              }
+          }
+          .Nav__right{
+            width: 100%;
+            text-align: center;
+            justify-content: center;
+          }
+      }
+  }
+}
+
+@media only screen and (max-width: 600px) {
+  nav{
+
+      .Nav__tel{
+
+          .Nav__right{
+
+             .Nav__right__tel{
+
+              .Nav__right__tel__a{
+                font-size: 10px;
+              }
+             }
+          }
+      }
   }
 }
