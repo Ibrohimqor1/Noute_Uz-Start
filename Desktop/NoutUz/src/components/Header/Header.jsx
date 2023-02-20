@@ -1,5 +1,6 @@
 import React from 'react'
 import Carousel from 'react-bootstrap/Carousel';
+import { Link } from 'react-router-dom';
 import "../Header/Header.scss"
 
 const Header = (props) => {
@@ -9,9 +10,13 @@ const Header = (props) => {
       {/* category menu */}
       <div className="category">
         <ul className="c-items">
+          <Link to="/asus" >
           <li className="active c-item">Asus</li>
+          </Link>
           <li className="c-item">MSI</li>
-          <li className="c-item">Levono</li>
+          <Link to="/lenovo" >
+          <li className="c-item">Lenovo</li>
+          </Link>
           <li className="c-item">HP</li>
           <li className="c-item">Dell</li>
           <li className="c-item">Razer</li>
