@@ -10,6 +10,7 @@ const Home = () => {
         <Navbar/>
         <Header/>
         <Section/>
+        {/* bilol */}
     </div>
   )
 }
