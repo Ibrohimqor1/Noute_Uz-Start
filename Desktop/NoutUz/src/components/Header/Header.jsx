@@ -17,7 +17,9 @@ const Header = (props) => {
           <Link to="/lenovo" >
           <li className="c-item">Lenovo</li>
           </Link>
+          <Link to="/Hp" >
           <li className="c-item">HP</li>
+          </Link>
           <li className="c-item">Dell</li>
           <li className="c-item">Razer</li>
           <li className="c-item">Samsung</li>

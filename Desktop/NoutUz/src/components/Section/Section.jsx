@@ -11,7 +11,9 @@ const Section = () => {
         <Link to="/asus" >
         <img src="https://nout.uz/wp-content/uploads/2022/05/asus-ban-2.jpg" alt="" />
         </Link>
+        <Link to="/Hpp" >
         <img src="https://nout.uz/wp-content/uploads/2022/05/hp.jpg" alt="" />
+        </Link>
         <img src="https://nout.uz/wp-content/uploads/2022/05/msi-2.jpg" alt="" />
         <img src="https://nout.uz/wp-content/uploads/2022/05/dell.jpg" alt="" />
         <img src="https://nout.uz/wp-content/uploads/2022/05/razer-1.jpg" alt="" />
