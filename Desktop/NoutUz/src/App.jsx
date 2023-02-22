@@ -4,6 +4,7 @@ import Home from "./Pages/Home";
 import Lenovo from "../src/Pages/Lenovo"
 import Asus from "./Pages/Asus";
 import Hp from "./Pages/Hp";
+import Msi from "./Pages/Msi";
 
 function App() {
   return (
@@ -13,8 +14,7 @@ function App() {
         <Route path="/lenovo" element={<Lenovo/>} />
         <Route path="/asus" element={<Asus/>} />
         <Route path="/Hp" element={<Hp/>} />
-        {/* <Route path="/" element={<Home />} />
-        <Route path="/" element={<Home />} /> */}
+        <Route path="/Msi" element={<Msi/>} />
       </Routes>
     </div>
   );
