@@ -1,19 +1,19 @@
 import React from 'react'
-import AsusText from '../Components/Asus/AsusText'
 import Navbar from '../Components/Navbar/Navbar'
 import Navbar2 from '../Components/Navbar2Page/Navbar2'
 import Navtel from '../Components/Navtel/Navtel'
+import SamsungText from '../Components/SamsungText/SamsungText'
 
-const Asus = () => {
 
+const Samsung = () => {
   return (
     <div>
         <Navtel/>
         <Navbar/>
         <Navbar2/>
-        <AsusText/>
+        <SamsungText/>
     </div>
   )
 }
-// nothing
-export default Asus
+
+export default Samsung

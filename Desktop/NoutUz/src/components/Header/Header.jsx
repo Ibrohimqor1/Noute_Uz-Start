@@ -13,16 +13,30 @@ const Header = (props) => {
           <Link to="/asus" >
           <li className="active c-item">Asus</li>
           </Link>
-          <li className="c-item">MSI</li>
+         <Link to="/msi" >
+         <li className="c-item">MSI</li>
+         </Link>
           <Link to="/lenovo" >
           <li className="c-item">Lenovo</li>
           </Link>
+          <Link to="/Hp" >
           <li className="c-item">HP</li>
+          </Link>
+          <Link to="/dell">
           <li className="c-item">Dell</li>
+          </Link>
+          <Link to="/razer" >
           <li className="c-item">Razer</li>
+          </Link>
+          <Link to="/samsung" >
           <li className="c-item">Samsung</li>
+          </Link>
+          <Link to="/microsoft" >
           <li className="c-item">Microsoft Surface</li>
+          </Link>
+          <Link to="/apple" >
           <li className="c-item">Apple</li>
+          </Link>
           <li className="c-item">Acer</li>
           <li className="c-item">LG</li>
           <li className="c-item">HyperX</li>

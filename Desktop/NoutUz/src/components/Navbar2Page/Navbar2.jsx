@@ -1,6 +1,5 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import LenovoText from "../Lenovo/LenovoText";
 import "../Navbar2Page/Navbar2.scss";
 const Navbar2 = () => {
   return (
@@ -84,37 +83,51 @@ const Navbar2 = () => {
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
+                     <Link to="/msi" >
                       MSI
+                     </Link>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
-                      Lenovo
+                      <Link to="/lenovo" >
+                        Lenovo
+                      </Link>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
+                      <Link  to="hp" >
                       HP
+                      </Link>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
-                      DELL
+                     <Link to="/dell" >
+                     DELL
+                     </Link>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
-                      Razer
+                     <Link to="/razer" >
+                     Razer
+                     </Link>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
+                      <Link to="/samsung" >
                       Samsung
+                      </Link>
                     </button>
                   </li>
                   <li>
                     <button class="dropdown-item" type="button">
+                      <Link to="/apple" >
                       Apple
+                      </Link>
                     </button>
                   </li>
                   <li>

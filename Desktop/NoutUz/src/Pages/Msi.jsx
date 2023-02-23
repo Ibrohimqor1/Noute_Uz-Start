@@ -1,19 +1,18 @@
 import React from "react";
-import LenovoTexts from "../Components/Lenovo/LenovoText";
+import MsiText from "../components/Msi/Msi";
 import Navbar from "../Components/Navbar/Navbar";
 import Navbar2 from "../Components/Navbar2Page/Navbar2";
 import Navtel from "../Components/Navtel/Navtel";
 
-const Lenovo = () => {
+const Msi = () => {
   return (
     <div>
       <Navtel />
       <Navbar />
-      
       <Navbar2 />
-      <LenovoTexts />
+      <MsiText />
     </div>
   );
 };
 
-export default Lenovo;
+export default Msi;

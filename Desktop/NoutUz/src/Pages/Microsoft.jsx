@@ -1,19 +1,18 @@
 import React from 'react'
-import AsusText from '../Components/Asus/AsusText'
+import MicrosoftText from '../Components/Microsoft/MicrosoftText'
 import Navbar from '../Components/Navbar/Navbar'
 import Navbar2 from '../Components/Navbar2Page/Navbar2'
 import Navtel from '../Components/Navtel/Navtel'
 
-const Asus = () => {
-
+const Microsoft = () => {
   return (
     <div>
         <Navtel/>
         <Navbar/>
         <Navbar2/>
-        <AsusText/>
+        <MicrosoftText/>
     </div>
   )
 }
-// nothing
-export default Asus
+
+export default Microsoft
