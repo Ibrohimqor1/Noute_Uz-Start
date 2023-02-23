@@ -1,5 +1,5 @@
 import React, { useContext, useState } from "react";
-
+import "./AllProducts.scss"
 import { Context } from "../../Context";
 
 const Allplants = () => {
