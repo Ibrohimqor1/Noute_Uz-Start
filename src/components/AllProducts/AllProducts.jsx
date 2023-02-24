@@ -1,10 +1,10 @@
 import React, { useContext, useState } from "react";
-import "./AllProducts.scss"
-import { Context } from "../../Context";
 
+import { Context } from "../../Context";
+// import SeorchBar from "./SeorchBar/SeorchBar";
+import "./Product.scss";
 const Allplants = () => {
   const { data } = useContext(Context);
-  const [state, setState] = useState(data);
   const handleChange = (event, newValue) => {
     setValue(newValue);
   };
@@ -12,12 +12,14 @@ const Allplants = () => {
   console.log(data);
 
   return (
+
     <div className="allplants">
+      {/* <SeorchBar/> */}
       <div className="products">
         <div className="maped">
-          {data?.slice(0,130)?.map((el) => {
+          {data.slice(130,99999).map((el) => {
             return (
-              <div className="container">
+              <div className="card">
                 <div className="cardPlants" key={el.id}>
                   <img src={el.image} alt="" />
                   <div className="info">

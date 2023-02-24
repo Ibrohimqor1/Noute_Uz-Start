@@ -3,6 +3,7 @@ import "./App.css";
 import Home from "./Pages/Home";
 import Lenovo from "./Pages/Lenovo"
 import Asus from "./Pages/Asus";
+// import Admin from "../src/AdminPanel/Admin";
 function App() {
   return (
     <div className="App">
@@ -10,8 +11,8 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/lenovo" element={<Lenovo/>} />
         <Route path="/asus" element={<Asus/>} />
-        {/* <Route path="/" element={<Home />} />
-        <Route path="/" element={<Home />} /> */}
+       {/* <Route path="/admin" element={<Admin />} />  */}
+        {/*<Route path="/" element={<Home />} /> */}
       </Routes>
     </div>
   );

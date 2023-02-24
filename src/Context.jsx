@@ -24,9 +24,6 @@ const ContextProvider = ({ children }) => {
   const searchText = (event) => {
     setMura(event.target.value);
   };
-
-
-
   
   return (
     <Context.Provider
