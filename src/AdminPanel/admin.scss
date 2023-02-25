@@ -1,16 +1,18 @@
 .bgg {
-  background-color: #46a358;
+  background-color: rgb(85, 241, 246);
 }
 ul {
   display: flex;
-  justify-content: space-between;
+  justify-content:center;
   width: 60%;
   margin: 0 auto;
   padding: 20px;
   a {
-    color: whitesmoke;
+    color: black;
     font-size: 22px;
+    text-decoration: none;
   }
+  
   li {
     list-style: none;
     color: whitesmoke;
@@ -31,7 +33,7 @@ ul {
 
 .maped {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
+  grid-template-columns: repeat(4, 1fr);
   grid-gap: 20px;
   .cardPlants {
     display: flex;
@@ -57,7 +59,7 @@ ul {
       margin-top: 4px;
       font-weight: 900;
       font-size: 13px;
-      color: #46a358;
+      color: #469ba3;
       cursor: pointer;
     }
   }
@@ -74,7 +76,7 @@ ul {
 
   .maped{
       display: grid;
-  grid-template-columns: repeat(4, 1fr);
+  grid-template-columns: repeat(3, 1fr);
   grid-gap: 20px;
   }
 

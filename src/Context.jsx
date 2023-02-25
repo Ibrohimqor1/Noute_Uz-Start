@@ -21,10 +21,10 @@ const ContextProvider = ({ children }) => {
       });
   }, []);
   
-  const searchText = (event) => {
-    setMura(event.target.value);
-  };
-  
+  // const searchText = (event) => {
+  //   setMura(event.target.value);
+  // };
+
   return (
     <Context.Provider
       value={{
@@ -32,8 +32,8 @@ const ContextProvider = ({ children }) => {
         category,
         setCategory,
         data,
-        searchText,
-        mura,
+        // searchText,
+        // mura,
         api
       }}
     >
